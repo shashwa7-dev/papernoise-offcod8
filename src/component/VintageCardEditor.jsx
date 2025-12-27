@@ -46,9 +46,7 @@ export default function VintageCardEditor() {
   const [image, setImage] = useState(DEFAULT_AVATAR);
 
   const [title, setTitle] = useState("OffCod8");
-  const [body, setBody] = useState(
-    "I build things on the internet. Some are useful. Some are weird. All of them teach me something."
-  );
+  const [body, setBody] = useState("I turn curiosity into clickable things.");
 
   const [socials, setSocials] = useState({
     github: "shashwa7-dev",
@@ -109,9 +107,15 @@ export default function VintageCardEditor() {
   return (
     <div className="app-container">
       <div className="header">
-        <h1>PaperNoise</h1>
+        <h1>{"Paper*Noise"}</h1>
         <p>Design cards that feel discovered, not designed.</p>
-        <p className="credits">{"[Crafted by offcod8 Labs]"}</p>
+        <a className="credits" href="https://www.shashwa7.in/" target="_blank">
+          {"[Crafted by"}
+          <span style={{ color: "#f0f0ff", textDecoration: "underline" }}>
+            {" offcod8 Labs"}
+          </span>
+          {"]"}
+        </a>
       </div>
 
       <div className="editor-layout">
