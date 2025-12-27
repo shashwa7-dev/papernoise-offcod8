@@ -110,8 +110,13 @@ body {
 
 .header p {
   color: var(--color-text-secondary);
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
+.credits {
+  font-size: 0.7rem !important;
+  color: var(--color-accent-secondary) !important;
+}
+
 
 .editor-layout {
   display: grid;
@@ -445,14 +450,4 @@ body {
   border-color: var(--color-accent-primary);
   color: var(--color-accent-primary);
   background: var(--color-bg-tertiary);
-}
-
-.footer {
-
-  padding-top: 1rem;
-  max-width: 1000px;
-  margin: auto;
-  margin-top: 2rem;
-  font-size: 0.8rem;
-  border-top: 1px dotted var(--color-border-hover);
 }

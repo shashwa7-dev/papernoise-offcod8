@@ -111,6 +111,7 @@ export default function VintageCardEditor() {
       <div className="header">
         <h1>PaperNoise</h1>
         <p>Design cards that feel discovered, not designed.</p>
+        <p className="credits">{"[Crafted by offcod8 Labs]"}</p>
       </div>
 
       <div className="editor-layout">
