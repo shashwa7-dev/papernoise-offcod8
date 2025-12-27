@@ -373,7 +373,6 @@ body {
   display: block;
   color: var(--color-text-secondary);
   font-size: 0.875rem;
-  font-weight: 600;
   margin-bottom: var(--spacing-sm);
   text-transform: uppercase;
   letter-spacing: 0.5px;
