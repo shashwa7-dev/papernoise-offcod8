@@ -1,5 +1,5 @@
 # 🧻 PaperNoise
-
+![PaperNoise Preview](/public/og/papernoise-og.png)
 **Where pixels pretend to be paper.**
 
 PaperNoise is a small experimental tool to create **vintage-style cards** with real textures, classic ink palettes, and old-school typography — entirely in the browser.
@@ -53,4 +53,4 @@ I experiment with code, design, and ideas that somehow work.
 
 ## 📜 License
 
-MIT — steal ideas, not credit 😉
+MIT
