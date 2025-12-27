@@ -1,16 +1,56 @@
-# React + Vite
+# 🧻 PaperNoise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Where pixels pretend to be paper.**
 
-Currently, two official plugins are available:
+PaperNoise is a small experimental tool to create **vintage-style cards** with real textures, classic ink palettes, and old-school typography — entirely in the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+No templates. No AI fluff. Just code and texture obsession.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Vintage / parchment-style card editor
+- Custom paper, ink, and texture tint
+- Image upload support
+- High-quality PNG export
+- Export-safe rendering using **dom-to-image-more**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React + Vite**
+- **dom-to-image-more** (for high-fidelity exports)
+- Vanilla CSS
+- Base64 & SVG textures (no CORS issues)
+
+---
+
+## ⚠️ Notes & Constraints
+
+- External image URLs may not export due to browser security
+- Uploaded images are converted to base64 for reliability
+- Textures are embedded to ensure consistent output
+
+These are browser limitations, not bugs.
+
+---
+
+## 🚧 Status
+
+Experimental.  
+Built to explore browser rendering and export edge cases.
+
+---
+
+## 👋 Author
+
+Built by **offcod8**  
+I experiment with code, design, and ideas that somehow work.
+
+---
+
+## 📜 License
+
+MIT — steal ideas, not credit 😉
