@@ -110,7 +110,6 @@ body {
 .header {
   text-align: center;
   margin-bottom: var(--spacing-2xl);
-  padding-bottom: var(--spacing-lg);
   border-bottom: 2px dotted var(--color-border);
 }
 
@@ -142,6 +141,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .app-container {
+    padding: var(--spacing-md);
+  }
   .brand-overlay {
     font-size: 15rem;
     bottom: -10%;
@@ -469,4 +471,10 @@ body {
   border-color: var(--color-accent-primary);
   color: var(--color-accent-primary);
   background: var(--color-bg-tertiary);
+}
+.prod_hunt {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 1rem;
 }
